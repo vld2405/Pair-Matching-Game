@@ -1,0 +1,289 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\aj1\1.webp" />
+    <None Remove="images\aj1\10.webp" />
+    <None Remove="images\aj1\2.jpg" />
+    <None Remove="images\aj1\3.webp" />
+    <None Remove="images\aj1\4.webp" />
+    <None Remove="images\aj1\5.webp" />
+    <None Remove="images\aj1\6.webp" />
+    <None Remove="images\aj1\7.webp" />
+    <None Remove="images\aj1\8.webp" />
+    <None Remove="images\aj1\9.jpeg" />
+    <None Remove="images\aj1\slots1.jpg" />
+    <None Remove="images\aj1\slots10.jpg" />
+    <None Remove="images\aj1\slots11.jpg" />
+    <None Remove="images\aj1\slots12.jpg" />
+    <None Remove="images\aj1\slots13.jpg" />
+    <None Remove="images\aj1\slots14.jpg" />
+    <None Remove="images\aj1\slots15.jpg" />
+    <None Remove="images\aj1\slots16.jpg" />
+    <None Remove="images\aj1\slots2.jpg" />
+    <None Remove="images\aj1\slots3.jpg" />
+    <None Remove="images\aj1\slots4.jpg" />
+    <None Remove="images\aj1\slots5.jpg" />
+    <None Remove="images\aj1\slots6.jpg" />
+    <None Remove="images\aj1\slots7.jpg" />
+    <None Remove="images\aj1\slots8.jpg" />
+    <None Remove="images\aj1\slots9.jpg" />
+    <None Remove="images\albums\2014hills.jfif" />
+    <None Remove="images\albums\2093.jfif" />
+    <None Remove="images\albums\damn.png" />
+    <None Remove="images\albums\dbr.jpg" />
+    <None Remove="images\albums\hav.jpg" />
+    <None Remove="images\albums\liveloveasap.jpg" />
+    <None Remove="images\albums\llasap.jfif" />
+    <None Remove="images\albums\mbdtf.jfif" />
+    <None Remove="images\albums\offseason.jpg" />
+    <None Remove="images\albums\sihal.jfif" />
+    <None Remove="images\albums\testing.png" />
+    <None Remove="images\albums\utopia.jpeg" />
+    <None Remove="images\avatars\batman.jpg" />
+    <None Remove="images\avatars\cptamerica.webp" />
+    <None Remove="images\avatars\deadpool.jpg" />
+    <None Remove="images\avatars\spiderman.webp" />
+    <None Remove="images\avatars\superman.jpg" />
+    <None Remove="images\avatars\wonderwoman.jpg" />
+    <None Remove="images\bahoi\bahoi.jpg" />
+    <None Remove="images\bahoi\bahoi_gheghe.jfif" />
+    <None Remove="images\bahoi\baloi.webp" />
+    <None Remove="images\bahoi\puiu_spartan.png" />
+    <None Remove="images\bahoi\ronaldo_bahoi.jpg" />
+    <None Remove="images\batman.jpg" />
+    <None Remove="images\ben_zeciu.png" />
+    <None Remove="images\card_back.png" />
+    <None Remove="images\danutzu.webp" />
+    <None Remove="images\gadagdigi.jpg" />
+    <None Remove="images\irafiel.jpg" />
+    <None Remove="images\i_guess_well_never_know.jpg" />
+    <None Remove="images\kendrick1.jpg" />
+    <None Remove="images\kendrick2.webp" />
+    <None Remove="images\kendrick3.webp" />
+    <None Remove="images\memes\batman.jpg" />
+    <None Remove="images\memes\ben_zeciu.png" />
+    <None Remove="images\memes\danutzu.webp" />
+    <None Remove="images\memes\dodge.webp" />
+    <None Remove="images\memes\gadagdigi.jpg" />
+    <None Remove="images\memes\irafiel.jpg" />
+    <None Remove="images\memes\i_guess_well_never_know.jpg" />
+    <None Remove="images\memes\lebron.jfif" />
+    <None Remove="images\memes\nbnweed.jpg" />
+    <None Remove="images\memes\shrek.jfif" />
+    <None Remove="images\memes\sigma.jfif" />
+    <None Remove="images\memes\sorrymotherdog.png" />
+    <None Remove="images\memes\squidward.png" />
+    <None Remove="images\memes\troll.png" />
+    <None Remove="images\memes\xslayder.webp" />
+    <None Remove="images\nbnweed.jpg" />
+    <None Remove="images\sorrymotherdog.png" />
+    <None Remove="images\xslayder.webp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\aj1\1.webp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\aj1\10.webp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\aj1\2.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\aj1\3.webp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\aj1\4.webp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\aj1\5.webp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\aj1\6.webp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\aj1\7.webp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\aj1\8.webp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\aj1\9.jpeg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\aj1\slots1.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\aj1\slots10.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\aj1\slots11.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\aj1\slots12.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\aj1\slots13.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\aj1\slots14.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\aj1\slots15.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\aj1\slots16.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\aj1\slots2.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\aj1\slots3.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\aj1\slots4.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\aj1\slots5.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\aj1\slots6.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\aj1\slots7.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\aj1\slots8.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\aj1\slots9.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\albums\2014hills.jfif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\albums\2093.jfif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\albums\damn.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\albums\dbr.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\albums\hav.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\albums\liveloveasap.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\albums\llasap.jfif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\albums\mbdtf.jfif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\albums\offseason.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\albums\sihal.jfif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\albums\testing.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\albums\utopia.jpeg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\avatars\batman.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\avatars\cptamerica.webp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\avatars\deadpool.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\avatars\spiderman.webp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\avatars\superman.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\avatars\wonderwoman.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\bahoi\bahoi.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\bahoi\bahoi_gheghe.jfif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\bahoi\baloi.webp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\bahoi\puiu_spartan.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\bahoi\ronaldo_bahoi.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\card_back.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\memes\batman.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\memes\ben_zeciu.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\memes\danutzu.webp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\memes\dodge.webp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\memes\gadagdigi.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\memes\irafiel.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\memes\i_guess_well_never_know.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\memes\lebron.jfif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\memes\nbnweed.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\memes\shrek.jfif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\memes\sigma.jfif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\memes\sorrymotherdog.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\memes\squidward.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\memes\troll.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\memes\xslayder.webp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+[
+  {
+    "Name": "horia",
+    "ImagePath": "/images/avatars/cptamerica.webp",
+    "GamesPlayed": 0,
+    "GamesWon": 0,
+    "TimeScore": 0
+  },
+  {
+    "Name": "puiuspartan",
+    "ImagePath": "/images/bahoi/puiu_spartan.png",
+    "GamesPlayed": 1,
+    "GamesWon": 1,
+    "TimeScore": 490
+  }
+]

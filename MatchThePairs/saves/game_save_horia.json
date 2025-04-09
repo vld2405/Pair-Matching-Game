@@ -1,0 +1,60 @@
+{
+  "TableSizeX": 4,
+  "TableSizeY": 2,
+  "CategoryName": "Albums",
+  "UserName": "horia",
+  "TimerCount": 2,
+  "RemainingTime": "00:01:49",
+  "Cards": [
+    {
+      "ImagePath": "/images/albums/offseason.jpg",
+      "IsFlipped": false,
+      "IsMatched": false,
+      "Id": 3
+    },
+    {
+      "ImagePath": "/images/albums/mbdtf.jfif",
+      "IsFlipped": false,
+      "IsMatched": true,
+      "Id": 0
+    },
+    {
+      "ImagePath": "/images/albums/llasap.jfif",
+      "IsFlipped": false,
+      "IsMatched": false,
+      "Id": 1
+    },
+    {
+      "ImagePath": "/images/albums/mbdtf.jfif",
+      "IsFlipped": false,
+      "IsMatched": true,
+      "Id": 0
+    },
+    {
+      "ImagePath": "/images/albums/llasap.jfif",
+      "IsFlipped": false,
+      "IsMatched": false,
+      "Id": 1
+    },
+    {
+      "ImagePath": "/images/albums/testing.png",
+      "IsFlipped": false,
+      "IsMatched": false,
+      "Id": 2
+    },
+    {
+      "ImagePath": "/images/albums/testing.png",
+      "IsFlipped": false,
+      "IsMatched": false,
+      "Id": 2
+    },
+    {
+      "ImagePath": "/images/albums/offseason.jpg",
+      "IsFlipped": false,
+      "IsMatched": false,
+      "Id": 3
+    }
+  ],
+  "MatchesFound": 1,
+  "TotalPairs": 4
+}

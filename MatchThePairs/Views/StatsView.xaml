@@ -1,0 +1,66 @@
+﻿<Window x:Class="MatchThePairs.Views.StatsView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:views="clr-namespace:MatchThePairs.Views"
+        xmlns:vms="clr-namespace:MatchThePairs.ViewModels"
+        mc:Ignorable="d"
+        Title="Stats" 
+        Height="300" 
+        Width="400"
+        WindowStartupLocation="CenterScreen">
+
+    <Window.DataContext>
+        <vms:StatsViewModel/>
+    </Window.DataContext>
+
+    <Grid>
+        <ListBox 
+            ItemsSource="{Binding Users}"
+            Background="#C9B194">
+
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="110"/>
+                            <ColumnDefinition Width="80"/>
+                            <ColumnDefinition Width="80"/>
+                            <ColumnDefinition Width="80"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock 
+                            Grid.Column="0"
+                            Text="{Binding Name}" 
+                            FontSize="14" 
+                            FontWeight="Bold"
+                            Margin="5"
+                            Foreground="#5F8B4C"
+                            HorizontalAlignment="Left"/>
+                        <TextBlock 
+                            Grid.Column="1"
+                            Text="{Binding GamesPlayed, StringFormat=Games: {0}}" 
+                            FontSize="14" 
+                            FontWeight="Bold"
+                            Foreground="#EDE8DC"
+                            Margin="5" />
+                        <TextBlock 
+                            Grid.Column="2"
+                            Text="{Binding GamesWon, StringFormat=Won: {0}}" 
+                            FontSize="14" 
+                            FontWeight="Bold"
+                            Foreground="#EDE8DC"
+                            Margin="5"/>
+                        <TextBlock 
+                            Grid.Column="3"
+                            Text="{Binding TimeScore, StringFormat=Score: {0}}" 
+                            FontSize="14" 
+                            FontWeight="Bold"
+                            Foreground="#EDE8DC"
+                            Margin="5"/>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+</Window>
